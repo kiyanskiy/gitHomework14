@@ -14,6 +14,10 @@
 		A3ED7A1A26A197940074EE56 /* gitHomework14.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A1826A197940074EE56 /* gitHomework14.xcdatamodeld */; };
 		A3ED7A1C26A197950074EE56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3ED7A1B26A197950074EE56 /* Assets.xcassets */; };
 		A3ED7A1F26A197950074EE56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3ED7A1D26A197950074EE56 /* LaunchScreen.storyboard */; };
+		A3ED7A4526A19A420074EE56 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ED7A4326A19A420074EE56 /* Realm.framework */; };
+		A3ED7A4626A19A420074EE56 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3ED7A4326A19A420074EE56 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3ED7A4726A19A420074EE56 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ED7A4426A19A420074EE56 /* RealmSwift.framework */; };
+		A3ED7A4826A19A420074EE56 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3ED7A4426A19A420074EE56 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A3ED7A4926A19A420074EE56 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3ED7A4826A19A420074EE56 /* RealmSwift.framework in Embed Frameworks */,
+				A3ED7A4626A19A420074EE56 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		A3ED7A0C26A197940074EE56 /* gitHomework14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitHomework14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3ED7A0F26A197940074EE56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +64,8 @@
 		A3ED7A2026A197950074EE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3ED7A2526A197960074EE56 /* gitHomework14Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitHomework14Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3ED7A3026A197960074EE56 /* gitHomework14UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitHomework14UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3ED7A4326A19A420074EE56 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		A3ED7A4426A19A420074EE56 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3ED7A4726A19A420074EE56 /* RealmSwift.framework in Frameworks */,
+				A3ED7A4526A19A420074EE56 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +100,7 @@
 			children = (
 				A3ED7A0E26A197940074EE56 /* gitHomework14 */,
 				A3ED7A0D26A197940074EE56 /* Products */,
+				A3ED7A4226A19A420074EE56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +129,15 @@
 			path = gitHomework14;
 			sourceTree = "<group>";
 		};
+		A3ED7A4226A19A420074EE56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3ED7A4326A19A420074EE56 /* Realm.framework */,
+				A3ED7A4426A19A420074EE56 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +148,8 @@
 				A3ED7A0826A197940074EE56 /* Sources */,
 				A3ED7A0926A197940074EE56 /* Frameworks */,
 				A3ED7A0A26A197940074EE56 /* Resources */,
+				A3ED7A4926A19A420074EE56 /* Embed Frameworks */,
+				A3ED7A4A26A19A4C0074EE56 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -229,6 +264,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3ED7A4A26A19A4C0074EE56 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A3ED7A0826A197940074EE56 /* Sources */ = {
@@ -414,6 +471,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29PA55RT68;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = gitHomework14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -423,6 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -433,6 +496,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29PA55RT68;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = gitHomework14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,6 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
