@@ -14,8 +14,6 @@
 		A3ED7A1A26A197940074EE56 /* gitHomework14.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A1826A197940074EE56 /* gitHomework14.xcdatamodeld */; };
 		A3ED7A1C26A197950074EE56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3ED7A1B26A197950074EE56 /* Assets.xcassets */; };
 		A3ED7A1F26A197950074EE56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3ED7A1D26A197950074EE56 /* LaunchScreen.storyboard */; };
-		A3ED7A2A26A197960074EE56 /* gitHomework14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A2926A197960074EE56 /* gitHomework14Tests.swift */; };
-		A3ED7A3526A197960074EE56 /* gitHomework14UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A3426A197960074EE56 /* gitHomework14UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +44,7 @@
 		A3ED7A1E26A197950074EE56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3ED7A2026A197950074EE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3ED7A2526A197960074EE56 /* gitHomework14Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitHomework14Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3ED7A2926A197960074EE56 /* gitHomework14Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitHomework14Tests.swift; sourceTree = "<group>"; };
-		A3ED7A2B26A197960074EE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3ED7A3026A197960074EE56 /* gitHomework14UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitHomework14UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3ED7A3426A197960074EE56 /* gitHomework14UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitHomework14UITests.swift; sourceTree = "<group>"; };
-		A3ED7A3626A197960074EE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				A3ED7A0E26A197940074EE56 /* gitHomework14 */,
-				A3ED7A2826A197960074EE56 /* gitHomework14Tests */,
-				A3ED7A3326A197960074EE56 /* gitHomework14UITests */,
 				A3ED7A0D26A197940074EE56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,24 +103,6 @@
 				A3ED7A1826A197940074EE56 /* gitHomework14.xcdatamodeld */,
 			);
 			path = gitHomework14;
-			sourceTree = "<group>";
-		};
-		A3ED7A2826A197960074EE56 /* gitHomework14Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A3ED7A2926A197960074EE56 /* gitHomework14Tests.swift */,
-				A3ED7A2B26A197960074EE56 /* Info.plist */,
-			);
-			path = gitHomework14Tests;
-			sourceTree = "<group>";
-		};
-		A3ED7A3326A197960074EE56 /* gitHomework14UITests */ = {
-			isa = PBXGroup;
-			children = (
-				A3ED7A3426A197960074EE56 /* gitHomework14UITests.swift */,
-				A3ED7A3626A197960074EE56 /* Info.plist */,
-			);
-			path = gitHomework14UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3ED7A2A26A197960074EE56 /* gitHomework14Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3ED7A3526A197960074EE56 /* gitHomework14UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
