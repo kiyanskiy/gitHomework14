@@ -18,6 +18,15 @@
 		A3ED7A4626A19A420074EE56 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3ED7A4326A19A420074EE56 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A3ED7A4726A19A420074EE56 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ED7A4426A19A420074EE56 /* RealmSwift.framework */; };
 		A3ED7A4826A19A420074EE56 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3ED7A4426A19A420074EE56 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3ED7A4D26A19B2D0074EE56 /* TaskCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A4B26A19B2D0074EE56 /* TaskCD+CoreDataClass.swift */; };
+		A3ED7A5426A19BBC0074EE56 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A5326A19BBC0074EE56 /* Human.swift */; };
+		A3ED7A5626A19BE80074EE56 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A5526A19BE80074EE56 /* NameViewController.swift */; };
+		A3ED7A5826A19C0C0074EE56 /* ToDoRealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A5726A19C0C0074EE56 /* ToDoRealmViewController.swift */; };
+		A3ED7A5A26A19C240074EE56 /* RealmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A5926A19C240074EE56 /* RealmTableViewCell.swift */; };
+		A3ED7A5C26A19C3B0074EE56 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A5B26A19C3B0074EE56 /* EntryViewController.swift */; };
+		A3ED7A5E26A19C590074EE56 /* ToDoCoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A5D26A19C590074EE56 /* ToDoCoreDataViewController.swift */; };
+		A3ED7A6026A19C760074EE56 /* EntryCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A5F26A19C760074EE56 /* EntryCDViewController.swift */; };
+		A3ED7A6226A19C9E0074EE56 /* CoreDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ED7A6126A19C9E0074EE56 /* CoreDataTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +75,15 @@
 		A3ED7A3026A197960074EE56 /* gitHomework14UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitHomework14UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3ED7A4326A19A420074EE56 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		A3ED7A4426A19A420074EE56 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		A3ED7A4B26A19B2D0074EE56 /* TaskCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A3ED7A5326A19BBC0074EE56 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		A3ED7A5526A19BE80074EE56 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		A3ED7A5726A19C0C0074EE56 /* ToDoRealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRealmViewController.swift; sourceTree = "<group>"; };
+		A3ED7A5926A19C240074EE56 /* RealmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmTableViewCell.swift; sourceTree = "<group>"; };
+		A3ED7A5B26A19C3B0074EE56 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		A3ED7A5D26A19C590074EE56 /* ToDoCoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCoreDataViewController.swift; sourceTree = "<group>"; };
+		A3ED7A5F26A19C760074EE56 /* EntryCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCDViewController.swift; sourceTree = "<group>"; };
+		A3ED7A6126A19C9E0074EE56 /* CoreDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +135,10 @@
 		A3ED7A0E26A197940074EE56 /* gitHomework14 */ = {
 			isa = PBXGroup;
 			children = (
+				A3ED7A5026A19B640074EE56 /* 1 */,
+				A3ED7A5126A19B6B0074EE56 /* 2 */,
+				A3ED7A5226A19B700074EE56 /* 3 */,
+				A3ED7A4F26A19B590074EE56 /* Model */,
 				A3ED7A0F26A197940074EE56 /* AppDelegate.swift */,
 				A3ED7A1126A197940074EE56 /* SceneDelegate.swift */,
 				A3ED7A1326A197940074EE56 /* ViewController.swift */,
@@ -136,6 +158,43 @@
 				A3ED7A4426A19A420074EE56 /* RealmSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3ED7A4F26A19B590074EE56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3ED7A4B26A19B2D0074EE56 /* TaskCD+CoreDataClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3ED7A5026A19B640074EE56 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				A3ED7A5326A19BBC0074EE56 /* Human.swift */,
+				A3ED7A5526A19BE80074EE56 /* NameViewController.swift */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		A3ED7A5126A19B6B0074EE56 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				A3ED7A5726A19C0C0074EE56 /* ToDoRealmViewController.swift */,
+				A3ED7A5926A19C240074EE56 /* RealmTableViewCell.swift */,
+				A3ED7A5B26A19C3B0074EE56 /* EntryViewController.swift */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		A3ED7A5226A19B700074EE56 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				A3ED7A5D26A19C590074EE56 /* ToDoCoreDataViewController.swift */,
+				A3ED7A5F26A19C760074EE56 /* EntryCDViewController.swift */,
+				A3ED7A6126A19C9E0074EE56 /* CoreDataTableViewCell.swift */,
+			);
+			path = 3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,8 +352,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3ED7A1426A197940074EE56 /* ViewController.swift in Sources */,
+				A3ED7A5C26A19C3B0074EE56 /* EntryViewController.swift in Sources */,
+				A3ED7A5E26A19C590074EE56 /* ToDoCoreDataViewController.swift in Sources */,
+				A3ED7A5426A19BBC0074EE56 /* Human.swift in Sources */,
+				A3ED7A5626A19BE80074EE56 /* NameViewController.swift in Sources */,
+				A3ED7A4D26A19B2D0074EE56 /* TaskCD+CoreDataClass.swift in Sources */,
+				A3ED7A6026A19C760074EE56 /* EntryCDViewController.swift in Sources */,
+				A3ED7A5A26A19C240074EE56 /* RealmTableViewCell.swift in Sources */,
 				A3ED7A1026A197940074EE56 /* AppDelegate.swift in Sources */,
 				A3ED7A1226A197940074EE56 /* SceneDelegate.swift in Sources */,
+				A3ED7A6226A19C9E0074EE56 /* CoreDataTableViewCell.swift in Sources */,
+				A3ED7A5826A19C0C0074EE56 /* ToDoRealmViewController.swift in Sources */,
 				A3ED7A1A26A197940074EE56 /* gitHomework14.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
